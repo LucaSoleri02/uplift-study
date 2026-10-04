@@ -31,7 +31,3 @@ data/criteo-research-uplift-v2.1.csv.gz
 ```
 
 The current notebooks read a prepared, hashed Parquet file at `data/criteo_uplift_v2_hashed.parquet`; the raw CSV download is **not** converted automatically by this repository. The modeling notebooks also use intermediate artifacts generated during analysis, including `data/interim/e2_best_visit_model.joblib` and `data/interim/e4_val_uplift_scores.parquet`. These datasets and generated artifacts are excluded from Git.
-
-The Criteo dataset is made available under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/). Please review the terms and cite the source paper when using the data:
-
-> Eustache Diemert, Artem Betlei, Christophe Renaudin, and Massih-Reza Amini. “A Large Scale Benchmark for Uplift Modeling.” AdKDD 2018.
