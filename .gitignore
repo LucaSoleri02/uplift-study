@@ -1,0 +1,13 @@
+# Python and virtual environments
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local datasets, trained models, and generated results
+data/
+outputs/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
